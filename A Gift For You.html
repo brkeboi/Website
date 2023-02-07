@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>My Photo Showcase</title>
+    <style>
+      /* Add Open Sans as the font */
+      body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #FFDDD2;
+        color: white;
+      }
+      /* Style the main content area */
+      .main {
+        width: 80%;
+        padding: 20px;
+        margin: 20px auto;
+        text-shadow: 1px 1px black;
+      }
+      /* Style the heading */
+      h1 {
+        text-shadow: 1px 1px #FF8DC7;
+        border: 2px solid #FF8DC7;
+        padding: 10px;
+        text-align: center;
+        font-size: 2em;
+      }
+      /* Style the photos */
+      .photos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .photo {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        border: 1px solid #FF8DC7;
+        overflow: hidden;
+      }
+      .photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <style>
+         h1 {
+        text-shadow: 1px 1px #FF8DC7;
+        border: 2px solid #FF8DC7;
+        padding: 10px;
+        text-align: center;
+        font-size: 2em;
+        }
+        </style>
+        <h1>My Photo Showcase</h1>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="photos">
+        <div class="photo">
+          <img src="path/to/image1.jpg" alt="Image 1">
+        </div>
+        <div class="photo">
+          <img src="path/to/image2.jpg" alt="Image 2">
+        </div>
+        <div class="photo">
+          <img src="path/to/image3.jpg" alt="Image 3">
+        </div>
+        <!-- Add more photos as desired -->
+      </div>
+    </div>
+  </body>
+</html>
